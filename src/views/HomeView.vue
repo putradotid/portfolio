@@ -33,7 +33,8 @@
       <div class="grid grid-cols-4 gap-5">
         <div class="skill-item bg-zinc-800 p-4 rounded-lg text-center">
           <h3 class="font-semibold mb-2">HTML & </h3>
-          <p>Proficient in structuring web content.</p>
+          <i class="fa-brands fa-html5 fa-2xl"></i>
+          <i class="fa-brands fa-css3 fa-2xl"></i>
         </div>
         <div class="skill-item bg-zinc-800 p-4 rounded-lg text-center">
           <h3 class="font-semibold mb-2">Adobe Ilustrator</h3>
@@ -41,7 +42,7 @@
         </div>
         <div class="skill-item bg-zinc-800 p-4 rounded-lg text-center">
           <h3 class="font-semibold mb-2">PHP</h3>
-          <p>Skilled in styling and layout design.</p>
+          <i class="fa-brands fa-php fa-2xl"></i>
           <img src="" alt="">
         </div>
         <div class="skill-item bg-zinc-800 p-4 rounded-lg text-center">
@@ -62,7 +63,7 @@
         </div>
         <div class="skill-item bg-zinc-800 p-4 rounded-lg text-center">
           <h3 class="font-semibold mb-2">Bootstrap</h3>
-          <p>Skilled in styling and layout design.</p>
+          <i class="fa-brands fa-bootstrap fa-2xl"></i>
         </div>
         <div class="skill-item bg-zinc-800 p-4 rounded-lg text-center">
           <h3 class="font-semibold mb-2">Tailwin</h3>
@@ -74,27 +75,27 @@
         </div>
         <div class="skill-item bg-zinc-800 p-4 rounded-lg text-center">
           <h3 class="font-semibold mb-2">Laravel</h3>
-          <p>Skilled in styling and layout design.</p>
+          <i class="fa-brands fa-laravel fa-2xl"></i>
         </div>
         <div class="skill-item bg-zinc-800 p-4 rounded-lg text-center">
           <h3 class="font-semibold mb-2">Vue</h3>
-          <p>Skilled in styling and layout design.</p>
+          <i class="fa-brands fa-vuejs fa-2xl"></i>
         </div>
         <div class="skill-item bg-zinc-800 p-4 rounded-lg text-center">
           <h3 class="font-semibold mb-2">React</h3>
-          <p>Skilled in styling and layout design.</p>
+          <i class="fa-brands fa-react fa-2xl"></i>
         </div>
         <div class="skill-item bg-zinc-800 p-4 rounded-lg text-center">
-          <h3 class="font-semibold mb-2">Git</h3>
-          <p>Skilled in styling and layout design.</p>
+          <h3 class="font-semibold mb-2">Github</h3>
+          <i class="fa-brands fa-github fa-2xl"></i>
         </div>
         <div class="skill-item bg-zinc-800 p-4 rounded-lg text-center">
           <h3 class="font-semibold mb-2">Firebase</h3>
           <p>Skilled in styling and layout design.</p>
         </div>
         <div class="skill-item bg-zinc-800 p-4 rounded-lg text-center">
-          <h3 class="font-semibold mb-2">Figma</h3>
-          <p>Skilled in styling and layout design.</p>
+          <h3 class="font-semibold mb-2" >Figma</h3>
+          <i class="fa-brands fa-figma fa-2xl"></i>
         </div>
       </div>
     </div>

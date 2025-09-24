@@ -12,10 +12,10 @@ import { RouterView, RouterLink } from 'vue-router'
             </div>
             <nav class="flex space-x-6 text-sm font-semibold">
               <router-link to="/">Home</router-link>
-              <router-link to="/">Project</router-link>
-              <router-link to="/">Sertifikat</router-link>
-              <router-link to="/">Blog</router-link>
-              <router-link to="/">Contact Me</router-link>
+              <router-link to="/project">Project</router-link>
+              <router-link to="/sertifikat">Sertifikat</router-link>
+              <router-link to="/blog">Blog</router-link>
+              <router-link to="/contactme">Contact Me</router-link>
             </nav>
         </div>
     </div>
