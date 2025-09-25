@@ -30,7 +30,7 @@ import Foto from "@/assets/MyFoto.png"
                     <span class="block text-sm text-stone-400 mb-2">2022 - 2023</span>
                     <p class="font-semibold">STAFF AND MARKETING SDTEL</p>
                     <p class="text-sm text-stone-300 mt-2">
-                        SDTEL Matematika Cepat Bekerja selama 1,5 tahun sebagai Staff dan Marketing,
+                        SDTEL Matematika Cepat. Bekerja selama 1,5 tahun sebagai Staff dan Marketing,
                         bertanggung jawab menjalin kerja sama dengan sekolah dasar, mengelola promosi langsung,
                         serta melakukan pendekatan personal kepada calon siswa, guru, dan orang tua untuk
                         mengenalkan metode belajar cepat.
@@ -41,7 +41,7 @@ import Foto from "@/assets/MyFoto.png"
                     <span class="block text-sm text-stone-400 mb-2">2024 - 2025</span>
                     <p class="font-semibold">FREELANCE AND MENTOR PKL</p>
                     <p class="text-sm text-stone-300 mt-2">
-                        Kombas Digital Marketing bekerja selama kurang lebih satu tahun, dimulai sebagai freelancer
+                        Kombas Digital Marketing. Bekerja selama kurang lebih satu tahun, dimulai sebagai freelancer
                         dalam proyek digital marketing, dan dipercaya menjadi mentor PKL selama 3 bulan. Membimbing
                         peserta dalam pengeditan buku, pembuatan dan analisis konten untuk kebutuhan pemasaran digital.
                     </p>
