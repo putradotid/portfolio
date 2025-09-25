@@ -1,4 +1,13 @@
 <script setup>
+import Foto from "@/assets/MyFoto.png"
+import Ilustrator from "@/assets/icons/adobe-illustrator.png"
+import Photoshop from "@/assets/icons/adobe-photoshop.png"
+import Javascript from "@/assets/icons/Javascript.png"
+import MySql from "@/assets/icons/MySql.png"
+import Ae from "@/assets/icons/adobe-after-effects.png"
+import Nuxt from "@/assets/icons/nuxt.png"
+import Firebase from "@/assets/icons/firebase.png"
+import Tailwind from "@/assets/icons/tailwind.png"
 
 </script>
 
@@ -20,15 +29,11 @@
         </div>
       </div>
       <div class="img">
-        <img 
-          src="@/assets/MyFoto.png" 
-          alt="Home Image" 
-          class="object-cover object-bottom-right shadow-lg h-80 w-80 mx-40"
-        />
+        <img :src="Foto" alt="Putra" class="object-cover object-bottom-right shadow-lg h-80 w-80 mx-40"/>
       </div>
     </div>
 
-    <div class="skill w-full pt-40">
+    <div class="skill w-full pt-40 pb-3">
       <h2 class="text-3xl font-bold text-center mb-10">My Skills</h2>
       <div class="grid grid-cols-4 gap-5">
         <div class="skill-item bg-zinc-800 p-4 rounded-lg text-center">
@@ -38,7 +43,7 @@
         </div>
         <div class="skill-item bg-zinc-800 p-4 rounded-lg text-center">
           <h3 class="font-semibold mb-2">Adobe Ilustrator</h3>
-          <p>Skilled in styling and layout design.</p>
+          <img :src="Ilustrator" alt="ilutrator" class="w-10 h-10 mx-auto"/>
         </div>
         <div class="skill-item bg-zinc-800 p-4 rounded-lg text-center">
           <h3 class="font-semibold mb-2">PHP</h3>
@@ -47,19 +52,19 @@
         </div>
         <div class="skill-item bg-zinc-800 p-4 rounded-lg text-center">
           <h3 class="font-semibold mb-2">Photoshop</h3>
-          <p>Skilled in styling and layout design.</p>
+          <img :src="Photoshop" alt="photoshop" class="w-10 h-10 mx-auto"/>
         </div>
         <div class="skill-item bg-zinc-800 p-4 rounded-lg text-center">
           <h3 class="font-semibold mb-2">Javascript</h3>
-          <p>Skilled in styling and layout design.</p>
+          <img :src="Javascript" alt="javascript" class="w-10 h-10 mx-auto"/>
         </div>
         <div class="skill-item bg-zinc-800 p-4 rounded-lg text-center">
           <h3 class="font-semibold mb-2">MySql</h3>
-          <p>Skilled in styling and layout design.</p>
+          <img :src="MySql" alt="mysql" class="h-10 mx-auto"/>
         </div>
         <div class="skill-item bg-zinc-800 p-4 rounded-lg text-center">
           <h3 class="font-semibold mb-2">After Effect</h3>
-          <p>Skilled in styling and layout design.</p>
+          <img :src="Ae" alt="after-effects" class="w-10 h-10 mx-auto"/>
         </div>
         <div class="skill-item bg-zinc-800 p-4 rounded-lg text-center">
           <h3 class="font-semibold mb-2">Bootstrap</h3>
@@ -67,11 +72,11 @@
         </div>
         <div class="skill-item bg-zinc-800 p-4 rounded-lg text-center">
           <h3 class="font-semibold mb-2">Tailwin</h3>
-          <p>Skilled in styling and layout design.</p>
+          <img :src="Tailwind" alt="tailwin" class="h-10 mx-auto"/>
         </div>
         <div class="skill-item bg-zinc-800 p-4 rounded-lg text-center">
-          <h3 class="font-semibold mb-2">JQuery</h3>
-          <p>Skilled in styling and layout design.</p>
+          <h3 class="font-semibold mb-2">Nuxt</h3>
+          <img :src="Nuxt" alt="nuxt" class="h-10 mx-auto"/>
         </div>
         <div class="skill-item bg-zinc-800 p-4 rounded-lg text-center">
           <h3 class="font-semibold mb-2">Laravel</h3>
@@ -91,7 +96,7 @@
         </div>
         <div class="skill-item bg-zinc-800 p-4 rounded-lg text-center">
           <h3 class="font-semibold mb-2">Firebase</h3>
-          <p>Skilled in styling and layout design.</p>
+          <img :src="Firebase" alt="firebase" class="h-10 mx-auto"/>
         </div>
         <div class="skill-item bg-zinc-800 p-4 rounded-lg text-center">
           <h3 class="font-semibold mb-2" >Figma</h3>

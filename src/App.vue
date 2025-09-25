@@ -15,7 +15,7 @@ import { RouterView, RouterLink } from 'vue-router'
               <router-link to="/project">Project</router-link>
               <router-link to="/sertifikat">Sertifikat</router-link>
               <router-link to="/blog">Blog</router-link>
-              <router-link to="/contactme">Contact Me</router-link>
+              <router-link to="/about">About</router-link>
             </nav>
         </div>
     </div>
@@ -25,8 +25,8 @@ import { RouterView, RouterLink } from 'vue-router'
   </div>
   <footer>
     <div class="bg-neutral-950 text-neutral-400 p-2 text-center">
-      <p class="text-sm">&copy; 2024 Aprliyanto Dwi Saputra. All rights reserved.</p>
-      <p class="text-sm">Build & Design by Me</p>
+      <p class="text-xs">&copy; 2024 Aprliyanto Dwi Saputra. All rights reserved.</p>
+      <p class="text-xs">Build & Design by Me</p>
     </div>
   </footer>
 </template>
