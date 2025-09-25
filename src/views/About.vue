@@ -19,39 +19,65 @@ import Foto from "@/assets/MyFoto.png"
             </div>
         </div>
 
-        <div class="w-full flex px-20 py-20">
-            <div class="education px-20 flex-1">
-                <div class="flex h-10 space-x-4 items-center">
-                    <i class="fa-solid fa-school fa-xl"></i>
-                    <h2 class="text-xl font-bold text-center">Education</h2>
+        <div class="w-full flex flex-col md:flex-row px-10 md:px-20 py-20 gap-10">
+            <div class="experience flex-1">
+                <div class="flex items-center space-x-4 mb-6">
+                <i class="fa-solid fa-list-check text-2xl pl-3"></i>
+                <h2 class="text-2xl font-bold text-center md:text-left">Experience</h2>
                 </div>
-                <div class="card">
-                    <span>2019 - 2021</span>
-                    <p>SMK NEGERI 1 BAWANG BANJARNEGARA</p>
-                    <p>Rekayasa Perangkat Lunak</p>
+
+                <div class="bg-zinc-800 p-6 rounded-lg shadow mb-6">
+                    <span class="block text-sm text-stone-400 mb-2">2022 - 2023</span>
+                    <p class="font-semibold">STAFF AND MARKETING SDTEL</p>
+                    <p class="text-sm text-stone-300 mt-2">
+                        SDTEL Matematika Cepat Bekerja selama 1,5 tahun sebagai Staff dan Marketing,
+                        bertanggung jawab menjalin kerja sama dengan sekolah dasar, mengelola promosi langsung,
+                        serta melakukan pendekatan personal kepada calon siswa, guru, dan orang tua untuk
+                        mengenalkan metode belajar cepat.
+                    </p>
                 </div>
-                <div class="card">
-                    <span>2023 - Now</span>
-                    <p>UNIVERSITAS AMIKOM PURWOKERTO</p>
-                    <p>Teknik Informatika</p>
-                </div>
-            </div>
-            <div class="experience px-20 flex-1">
-                <div class="flex h-10 space-x-4 items-center">
-                    <i class="fa-solid fa-list-check fa-xl"></i>
-                    <h2 class="text-xl font-bold text center">Experience</h2>
-                </div>
-                <div class="card">
-                    <span>2022 - 2023</span>
-                    <p>STAFF AND MAREKTING SDTEL</p>
-                    <p>SDTEL Matematika Cepat Bekerja selama 1,5 tahun sebagai Staff dan Marketing, bertanggung jawab menjalin kerja sama dengan sekolah dasar, mengelola promosi langsung, serta melakukan pendekatan personal kepada calon siswa, guru, dan orang tua untuk mengenalkan metode belajar cepat.</p>
-                </div>
-                <div class="card">
-                    <span>2024 - 2025</span>
-                    <p>FREELANCE AND MENTOR PKL</p>
-                    <p>Kombas Digital Marketing Bekerja selama kurang lebih satu tahun, dimulai sebagai freelancer dalam proyek digital marketing, dan dipercaya menjadi mentor PKL selama 3 bulan. Membimbing peserta dalam pengeditan buku, pembuatan dan analisis konten untuk kebutuhan pemasaran digital.</p>
+
+                <div class="bg-zinc-800 p-6 rounded-lg shadow">
+                    <span class="block text-sm text-stone-400 mb-2">2024 - 2025</span>
+                    <p class="font-semibold">FREELANCE AND MENTOR PKL</p>
+                    <p class="text-sm text-stone-300 mt-2">
+                        Kombas Digital Marketing bekerja selama kurang lebih satu tahun, dimulai sebagai freelancer
+                        dalam proyek digital marketing, dan dipercaya menjadi mentor PKL selama 3 bulan. Membimbing
+                        peserta dalam pengeditan buku, pembuatan dan analisis konten untuk kebutuhan pemasaran digital.
+                    </p>
                 </div>
             </div>
+
+            <div class="education flex-1">
+                <div class="flex items-center space-x-4 mb-6">
+                <i class="fa-solid fa-school text-2xl pl-3"></i>
+                <h2 class="text-2xl font-bold text-center md:text-left">Education</h2>
+                </div>
+
+                <div class="bg-zinc-800 p-6 rounded-lg shadow mb-6">
+                    <span class="block text-sm text-stone-400 mb-2">2019 - 2021</span>
+                    <p class="font-semibold">SMK NEGERI 1 BAWANG BANJARNEGARA</p>
+                    <p class="text-sm text-stone-300">Rekayasa Perangkat Lunak</p>
+                </div>
+
+                <div class="bg-zinc-800 p-6 rounded-lg shadow">
+                    <span class="block text-sm text-stone-400 mb-2">2023 - Now</span>
+                    <p class="font-semibold">UNIVERSITAS AMIKOM PURWOKERTO</p>
+                    <p class="text-sm text-stone-300">Teknik Informatika</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="maps w-full px-20 pb-20">
+            <h2 class="text-3xl font-bold text-center mb-10">My Home</h2>
+            <iframe class="rounded-lg shadow-lg h-100 w-full"
+                src="https://www.google.com/maps?q=-7.398976461906811,109.65420204629316&hl=es;z=14&output=embed"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
         </div>
     </div>
 </template>
