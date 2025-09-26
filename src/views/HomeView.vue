@@ -12,8 +12,8 @@ import Tailwind from "@/assets/icons/tailwind.png"
 </script>
 
 <template>
-  <div class="bg-zinc-900 text-white min-h-screen p-8 pt-20">
-    <div class="hero max-w-4xl mx-50 grid grid-cols-2 items-center gap-8 mt-5">
+  <div class="bg-zinc-900 text-white min-h-screen p-8 pt-20 md:p-2">
+    <div class="hero max-w-4xl mx-50 grid grid-cols-2 items-center gap-8 mt-5 ">
       <div class="text">
         <span class="font-bold text-stone-500">ABOUT ME</span>
         <h1 class="text-3xl font-bold">I Design with Logic, Code with Creativity.</h1>
