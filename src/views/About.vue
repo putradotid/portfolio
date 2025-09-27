@@ -3,13 +3,13 @@ import Foto from "@/assets/MyFoto.png"
 </script>
 
 <template>
-    <div class="bg-zinc-900 text-white min-h-screen pt-20">
+    <div class="bg-zinc-900 text-white min-h-screen pt-10 md:pt-20">
         <div class="w-full">
-            <div class="flex mx-auto flex-row items-center space-x-10 justify-center">
-                <img :src="Foto" alt="Putra" class="object-cover object-bottom-right rounded-full shadow-lg h-52 w-52"/>
-                <div class="w-full max-w-2xl">
-                    <h2 class="text-3xl font-bold text-center mb-10">About Me</h2>
-                    <p class="leading-relaxed text-center">
+            <div class="flex mx-auto flex-row flex-wrap items-center space-x-10 justify-center">
+                <img :src="Foto" alt="Putra" class="object-cover object-bottom-right border-5 md:border-10 rounded-full shadow-lg h-52 w-52 m-3 md:m-0"/>
+                <div class="w-full max-w-2xl mx-5 md:mx-15">
+                    <h2 class="text-3xl font-bold text-center mb-3 md:mb-10">About Me</h2>
+                    <p class="leading-relaxed text-center mx-10 md:mx-0">
                         Hello! I'm Aprliyanto Dwi Saputra, an Informatics student with a passion for technology and innovation. 
                         I am dedicated to exploring new knowledge and pushing the boundaries of what is possible in the tech world. 
                         With a strong foundation in programming and design, I strive to create solutions that are both logical and creative. 
