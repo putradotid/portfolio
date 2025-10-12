@@ -9,6 +9,17 @@ import Nuxt from "@/assets/icons/nuxt.png"
 import Firebase from "@/assets/icons/firebase.png"
 import Tailwind from "@/assets/icons/tailwind.png"
 
+const openLink = (url) => {
+  window.open(url, "_blank"); // buka di tab baru
+};
+
+const sendEmail = () => {
+  const email = "aprildwi999@gmail.com"; // ganti dengan email kamu
+  const subject = "Halo, saya tertarik dengan portofoliomu!";
+  const body = "Halo, saya ingin berdiskusi lebih lanjut tentang proyekmu.";
+  const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${email}&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  window.open(gmailUrl, "_blank");
+};
 </script>
 
 <template>
@@ -22,10 +33,14 @@ import Tailwind from "@/assets/icons/tailwind.png"
           for exploring knowledge and innovation in technology.
         </p>
         <div class="flex space-x-4 mt-10">
-          <i class="fa-solid fa-envelope fa-xl"></i>
-          <i class="fa-brands fa-whatsapp fa-xl"></i>
-          <i class="fa-brands fa-instagram fa-xl"></i>
-          <i class="fa-brands fa-github fa-xl"></i>
+          <!-- Email -->
+          <i class="fa-solid fa-envelope fa-xl cursor-pointer hover:text-red-400 transition" @click="sendEmail"></i>
+          <!-- WhatsApp -->
+          <i class="fa-brands fa-whatsapp fa-xl cursor-pointer hover:text-green-400 transition" @click="openLink('https://wa.me/62895358255244')"></i>
+          <!-- Instagram -->
+          <i class="fa-brands fa-instagram fa-xl cursor-pointer hover:text-pink-400 transition" @click="openLink('https://instagram.com/aprll_028')"></i>
+          <!-- Github -->
+          <i class="fa-brands fa-github fa-xl cursor-pointer hover:text-gray-400 transitio" @click="openLink('https://github.com/putradotid')"></i>
         </div>
       </div>
       <div class="img mt-10 md:mt-0">
