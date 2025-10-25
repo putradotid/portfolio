@@ -6,6 +6,7 @@ import Javascript from "@/assets/icons/javascript.png"
 import MySql from "@/assets/icons/mysql.png"
 import Ae from "@/assets/icons/adobe-after-effects.png"
 import Nuxt from "@/assets/icons/nuxt.png"
+import Flutter from "@/assets/icons/flutter.png"
 import Firebase from "@/assets/icons/firebase.png"
 import Tailwind from "@/assets/icons/tailwind.png"
 
@@ -105,7 +106,7 @@ const sendEmail = () => {
         </div>
         <div class="skill-item bg-zinc-800 p-4 rounded-lg text-center">
           <h3 class="font-semibold mb-2 text-xs md:text-sm">Flutter</h3>
-          <i class="fa-brands fa-flutter fa-2xl"></i>
+          <img :src="Flutter" alt="flutter" class="w-10 h-10 mx-auto"/>
         </div>
         <div class="skill-item bg-zinc-800 p-4 rounded-lg text-center">
           <h3 class="font-semibold mb-2 text-xs md:text-sm">Github</h3>
