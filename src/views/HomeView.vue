@@ -104,8 +104,8 @@ const sendEmail = () => {
           <i class="fa-brands fa-vuejs fa-2xl"></i>
         </div>
         <div class="skill-item bg-zinc-800 p-4 rounded-lg text-center">
-          <h3 class="font-semibold mb-2 text-xs md:text-sm">React</h3>
-          <i class="fa-brands fa-react fa-2xl"></i>
+          <h3 class="font-semibold mb-2 text-xs md:text-sm">Flutter</h3>
+          <i class="fa-brands fa-flutter fa-2xl"></i>
         </div>
         <div class="skill-item bg-zinc-800 p-4 rounded-lg text-center">
           <h3 class="font-semibold mb-2 text-xs md:text-sm">Github</h3>
