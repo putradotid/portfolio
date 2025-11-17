@@ -93,8 +93,9 @@ const sendEmail = () => {
           <img :src="Tailwind" alt="tailwin" class="h-8 md:h-10 mx-auto"/>
         </div>
         <div class="skill-item bg-zinc-800 p-4 rounded-lg text-center">
-          <h3 class="font-semibold mb-2 text-xs md:text-sm">Nuxt</h3>
-          <img :src="Nuxt" alt="nuxt" class="h-8 md:h-10 mx-auto"/>
+          <h3 class="font-semibold mb-2 text-xs md:text-sm">React</h3>
+          <i class="fa-brands fa-react fa-2xl"></i>
+          <!-- <img :src="Nuxt" alt="nuxt" class="h-8 md:h-10 mx-auto"/> -->
         </div>
         <div class="skill-item bg-zinc-800 p-4 rounded-lg text-center">
           <h3 class="font-semibold mb-2 text-xs md:text-sm">Laravel</h3>
