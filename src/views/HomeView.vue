@@ -95,6 +95,8 @@ const sendEmail = () => {
         <div class="skill-item bg-zinc-800 p-4 rounded-lg text-center">
           <h3 class="font-semibold mb-2 text-xs md:text-sm">React</h3>
           <i class="fa-brands fa-react fa-2xl"></i>
+          <!-- <i class="fa-brands fa-node-js fa-2xl"></i> -->
+          <!-- <i class="fa-brands fa-express fa-2xl"></i> -->
           <!-- <img :src="Nuxt" alt="nuxt" class="h-8 md:h-10 mx-auto"/> -->
         </div>
         <div class="skill-item bg-zinc-800 p-4 rounded-lg text-center">
