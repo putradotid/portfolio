@@ -2,7 +2,7 @@
 import Project from "@/assets/project/image.png"
 import Project2 from "@/assets/project/image2.png"
 import Project3 from "@/assets/project/image3.png"
-import Project3 from "@/assets/project/image4.png"
+import Project4 from "@/assets/project/image4.png"
 </script>
 
 <template>
